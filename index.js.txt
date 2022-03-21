@@ -1,0 +1,27 @@
+$ npm install - g json-servervar unirest = require('unirest')
+
+var req = unirest('GET', 'http://localhost:3000/fruit?id=3')
+req1.headers({
+      "cache-console": "no-cache",
+       // qes3: "response "peut étre stocké dans le cache si validé par le serveur d'origine , meme si "response" est non-cacheable  
+
+
+})
+req2.headers({
+
+    "cache-console": "no-cache",
+
+
+
+
+})
+
+req1.end(function (res){
+
+    if (res.error) throw new Error(res.error)
+    
+    console.log(res.boby)
+
+})
+
+    
