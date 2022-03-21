@@ -1,0 +1,18 @@
+var listing_1 = {
+    'podcasts': [{
+        'repeat(100)': {
+  id: JG.objectId(),
+  name:JG.random('apple','banana','blueberry','orange')
+  
+  family : function (tags) {
+  var fam = ['Musaceae','Rosaceae'];
+  return fam[tags.integer(0,fam,length -1)];
+
+}
+  genus  function (tags) {
+  var genu = ['Musa','Fragaria'];
+  return genu[tags.integer(0,fam,length -1)];
+}
+ 
+
+});
